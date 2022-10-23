@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersoanaFizicaCheltuieliInvestitiiActivity">
+
+    <TextView
+        android:id="@+id/titlu_cheltuieli_investitii"
+        android:layout_width="297dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="16dp"
+        android:text="Sectiunea investitiilor"
+        android:textColor="#331DE5"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titlu2_cheltuieli_investitii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:text="Cheltuieli"
+        android:textColor="#331DE5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_informatie_introdu_suma_cheltuieli_investitii"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlu_cheltuieli_investitii" />
+
+    <EditText
+        android:id="@+id/number_adauga_cheltuiala_investitie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="           Introdu suma"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/button_adauga_cheltuiala_investitie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_informatie_introdu_suma_cheltuieli_investitii" />
+
+    <Button
+        android:id="@+id/button_adauga_cheltuiala_investitie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="Adauga"
+        app:layout_constraintBottom_toTopOf="@+id/text_informatie_suma_cheltuieli_investitii"
+        app:layout_constraintEnd_toEndOf="@+id/number_adauga_cheltuiala_investitie"
+        app:layout_constraintStart_toStartOf="@+id/number_adauga_cheltuiala_investitie"
+        app:layout_constraintTop_toBottomOf="@+id/number_adauga_cheltuiala_investitie" />
+
+    <EditText
+        android:id="@+id/number_suma_cheltuiala_investitie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:hint="           Suma totala"
+        android:inputType="none"
+        android:editable="false"
+        app:layout_constraintBottom_toTopOf="@+id/text_ultima_cheltuiala_investitie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_informatie_suma_cheltuieli_investitii" />
+
+    <EditText
+        android:id="@+id/number_ultima_cheltuiala_investitie"
+        android:layout_width="229dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="448dp"
+        android:ems="10"
+        android:hint="  Ultima investitie introdusa"
+        android:inputType="none"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_informatie_introdu_suma_cheltuieli_investitii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="9dp"
+        android:text="Introdu suma"
+        app:layout_constraintBottom_toTopOf="@+id/number_adauga_cheltuiala_investitie"
+        app:layout_constraintEnd_toEndOf="@+id/titlu2_cheltuieli_investitii"
+        app:layout_constraintTop_toBottomOf="@+id/titlu2_cheltuieli_investitii" />
+
+    <TextView
+        android:id="@+id/text_informatie_suma_cheltuieli_investitii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Suma totala"
+        app:layout_constraintBottom_toTopOf="@+id/number_suma_cheltuiala_investitie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_adauga_cheltuiala_investitie" />
+
+    <TextView
+        android:id="@+id/text_ultima_cheltuiala_investitie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="33dp"
+        android:text="Ultima investitie introdusa"
+        app:layout_constraintBottom_toTopOf="@+id/number_ultima_cheltuiala_investitie"
+        app:layout_constraintEnd_toEndOf="@+id/number_suma_cheltuiala_investitie"
+        app:layout_constraintTop_toBottomOf="@+id/number_suma_cheltuiala_investitie" />
+
+    <Button
+        android:id="@+id/button_reset_cheltuieli_investitii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="528dp"
+        android:text="Reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

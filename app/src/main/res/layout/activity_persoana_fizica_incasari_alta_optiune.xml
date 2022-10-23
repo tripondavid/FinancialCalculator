@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersoanaFizicaIncasariAltaOptiuneActivity">
+
+    <TextView
+        android:id="@+id/titlu_alte_incasari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="31dp"
+        android:text="Alte incasari"
+        android:textColor="#331DE5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/number_adauga_alte_incasari"
+        app:layout_constraintStart_toStartOf="@+id/number_adauga_alte_incasari"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/number_adauga_alte_incasari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="        Adauga incasare"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/button_adauga_alta_incasare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlu_alte_incasari" />
+
+    <Button
+        android:id="@+id/button_adauga_alta_incasare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Adauga"
+        app:layout_constraintBottom_toTopOf="@+id/number_suma_alte_incasari"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number_adauga_alte_incasari" />
+
+    <EditText
+        android:id="@+id/number_suma_alte_incasari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="278dp"
+        android:ems="10"
+        android:hint="          Venituri totale"
+        android:inputType="none"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/number_ultima_alta_incasare"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="362dp"
+        android:ems="10"
+        android:hint="    Ultima incasare introdusa"
+        android:inputType="none"
+        android:editable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_informatie_alta_incasare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:text="Adauga incasare"
+        app:layout_constraintBottom_toTopOf="@+id/number_adauga_alte_incasari"
+        app:layout_constraintEnd_toEndOf="@+id/titlu_alte_incasari" />
+
+    <TextView
+        android:id="@+id/text_informatie_venituri_alte_incasari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Venituri totale"
+        app:layout_constraintBottom_toTopOf="@+id/number_suma_alte_incasari"
+        app:layout_constraintStart_toStartOf="@+id/button_adauga_alta_incasare" />
+
+    <TextView
+        android:id="@+id/text_ultima_alta_incasare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="41dp"
+        android:text="Ultima incasare introdusa"
+        app:layout_constraintBottom_toTopOf="@+id/number_ultima_alta_incasare"
+        app:layout_constraintEnd_toEndOf="@+id/number_ultima_alta_incasare" />
+
+    <Button
+        android:id="@+id/button_reset_alte_incasari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="Reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number_ultima_alta_incasare" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

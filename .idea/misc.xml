@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica.xml" value="0.33" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica_cheltuieli_alte_cheltuieli.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica_cheltuieli_cumparaturi.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica_cheltuieli_investitii.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica_cheltuieli_rate.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica_incasari_alta_optiune.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica_incasari_investitii.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_fizica_incasari_salariu.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/david/AndroidStudioProjects/CalculatorFinanciar/app/src/main/res/layout/activity_persoana_juridica.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

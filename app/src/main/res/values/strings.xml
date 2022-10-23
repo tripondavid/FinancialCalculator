@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CalculatorFinanciar</string>
+    <string-array name="optiuni_incasari">
+        <item>Salariu</item>
+        <item>Investitii</item>
+        <item>Alte incasari</item>
+    </string-array>
+    <string-array name="optiuni_cheltuieli">
+        <item>Cumparaturi</item>
+        <item>Rate</item>
+        <item>Investitii</item>
+        <item>Alte cheltuieli</item>
+    </string-array>
+</resources>

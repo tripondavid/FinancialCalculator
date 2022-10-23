@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersoanaFizicaIncasariSalariuActivity">
+
+    <EditText
+        android:id="@+id/number_adauga_salariu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="146dp"
+        android:ems="10"
+        android:hint="           Introdu suma"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/number_suma_salariu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="284dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="          Venituri totale"
+        android:inputType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_adauga_salariu_persoana_fizica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Adauga"
+        app:layout_constraintEnd_toEndOf="@+id/number_adauga_salariu"
+        app:layout_constraintStart_toStartOf="@+id/number_adauga_salariu"
+        app:layout_constraintTop_toBottomOf="@+id/number_adauga_salariu" />
+
+    <TextView
+        android:id="@+id/titlu_salariu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Sectiunea salariului"
+        android:textColor="#331DE5"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/number_ultim_salariu_adaugat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="141dp"
+        android:layout_marginBottom="143dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="  Ultimul salariu introdus"
+        android:inputType="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/number_suma_salariu" />
+
+    <Button
+        android:id="@+id/button_reset_salariu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number_ultim_salariu_adaugat" />
+
+    <TextView
+        android:id="@+id/text_informatie_venit_salariu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Venituri totale"
+        app:layout_constraintBottom_toTopOf="@+id/number_suma_salariu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_informatie_introducere_suma_salariu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="Introdu suma"
+        app:layout_constraintBottom_toTopOf="@+id/number_adauga_salariu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_informatie_ultim_salariu_introdus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
+        android:text="Ultimul salariu introdus"
+        app:layout_constraintBottom_toTopOf="@+id/number_ultim_salariu_adaugat"
+        app:layout_constraintStart_toStartOf="@+id/number_ultim_salariu_adaugat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

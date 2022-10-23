@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersoanaFizicaActivity">
+
+    <EditText
+        android:id="@+id/number_persoana_fizica_incasari_totale"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="433dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="     Incasari totale"
+        android:inputType="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_incasari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="30dp"
+        android:text="Incasari"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_profit_persoana_fizica"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_cheltuieli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="33dp"
+        android:text="Cheltuieli"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_profit_persoana_fizica"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_cheltuieli_persoana_fizica"
+        app:layout_constraintEnd_toStartOf="@+id/spinner_cheltuieli_persoana_fizica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner_cheltuieli_persoana_fizica" />
+
+    <Spinner
+        android:id="@+id/spinner_cheltuieli_persoana_fizica"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_selectie_spinner_persoana_fizica_cheltuieli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spinner_profit_persoana_fizica"
+        app:layout_constraintTop_toTopOf="@+id/text_cheltuieli" />
+
+    <Button
+        android:id="@+id/button_selectie_spinner_persoana_fizica_incasari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Selecteaza"
+        app:layout_constraintStart_toStartOf="@+id/spinner_profit_persoana_fizica"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_profit_persoana_fizica" />
+
+    <Button
+        android:id="@+id/button_selectie_spinner_persoana_fizica_cheltuieli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="202dp"
+        android:text="Selecteaza"
+        app:layout_constraintStart_toStartOf="@+id/spinner_cheltuieli_persoana_fizica"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/number_persoana_fizica_cheltuieli_totale"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="16dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="      Cheltuieli totale"
+        android:inputType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_informatie_incasari_totale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="406dp"
+        android:text="Incasari totale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_informatie_cheltuieli_totale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="45dp"
+        android:text="Cheltuieli totale"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
